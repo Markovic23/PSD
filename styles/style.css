@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #19283f;
+}
+header .nav-link {
+  font-size: 15px;
+  color: #a8b9c0 !important;
+  font-weight: 400;
+  font-family: "Roboto";
+  margin-left: 40px;
+}
+header .nav-link:hover {
+  color: #00c7c0 !important;
+}
+header .active {
+  font-size: 15px;
+  color: #00c7c0 !important;
+}
+header .marginHeaderIcons {
+  margin: 0 25px;
+}
+header #search {
+  margin-left: 0;
+}
+header #login {
+  font-size: 15px;
+  color: #ffc501;
+  font-weight: 500;
+  font-family: "Roboto";
+  text-decoration: none;
+  width: 110px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #ff3150;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header #login:hover {
+  background-color: #ffc501;
+  color: #ff3150;
+}
+header #headerTitle {
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  padding: 160px 0 140px 0;
+}
+header #headerTitle h1 {
+  font-size: 51px;
+  color: #f0f8fb;
+  font-weight: 300;
+}
+header #headerTitle p {
+  font-size: 15px;
+  color: #a8b9c0;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+header #headerTitle a {
+  font-size: 15px;
+  color: #ffc501;
+  font-weight: 500;
+  width: 190px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: #ff3150;
+  padding: 20px 60px;
+  text-decoration: none;
+}
+
+.title {
+  text-align: center;
+}
+.title h1 {
+  font-size: 35px;
+  color: #1a2940;
+  font-weight: 500;
+}
+.title p {
+  font-size: 15px;
+  color: #a8b9c0;
+  font-weight: 400;
+}
+
+.third h1 {
+  font-size: 20px;
+  color: #ffc501;
+  font-weight: 500;
+}
+.third p {
+  font-size: 15px;
+  line-height: 30px;
+  color: #a8b9c0;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
